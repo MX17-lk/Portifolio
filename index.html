@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="IMG/Mel2.png" alt="avatar da Mel" class="rounded-circle" width="280" height="280"
+            srcset="">
+        <p class="lead">Eu sou Melissa</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante da escola E.E Sophia Maria Januária Amaral e estou em formação na área de desenvolvimento web com a plataforma Alura. Possuo conhecimentos básicos em HTML, CSS e JavaScript, e já desenvolvi alguns projetos que demonstram minhas habilidades em constante evolução. Confira abaixo!
+            que já desenvolvi!</p>
+        <p class="hab">Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Corrida.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida Multiplayer</h5>
+                        <p class="card-text">Neste projeto, desenvolvi uma simulação de corrida entre quatro personagens, cada um posicionado em uma pista diferente. O movimento acontece de forma automática e aleatória, o que torna cada corrida imprevisível e divertida de assistir. A linha de chegada é representada por uma faixa vermelha no final da tela, e os corredores vão avançando em velocidades diferentes a cada segundo. O projeto explora conceitos como aleatoriedade, movimentação contínua e controle de múltiplos elementos na tela, oferecendo uma experiência visual simples, porém dinâmica.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Quente e frio.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente e Frio</h5>
+                        <p class="card-text">O jogo “Quente e Frio” é uma experiência interativa em que o jogador deve encontrar um ponto secreto escondido na tela. A única dica disponível é a cor de fundo, que muda conforme a proximidade do cursor com o ponto-alvo: tons frios indicam distância, enquanto tons quentes revelam que o jogador está se aproximando. Quando o ponto é encontrado, a tela muda completamente, indicando a vitória. Esse projeto trabalha com lógica de distância, interatividade com o mouse e percepção visual, criando um desafio simples, mas envolvente.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Monalisa.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Monalisa
+                        </h5>
+                        <p class="card-text">Nesta criação, representei a clássica pintura da Monalisa usando a técnica de pixel art, por meio de pequenos retângulos coloridos posicionados de forma estratégica. A imagem é construída com base em formas geométricas simples, mas que, juntas, formam uma releitura moderna e minimalista da obra original. Este projeto demonstra o uso criativo das coordenadas e cores no ambiente digital, além de unir programação e arte de forma expressiva.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida Multiplayer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenvolvido com a biblioteca p5.js, este projeto apresenta uma corrida divertida entre quatro personagens coloridos, cada um em sua própria pista. A movimentação é realizada de forma automática, com velocidades aleatórias a cada quadro, o que garante uma experiência dinâmica e imprevisível para quem assiste. A linha de chegada, marcada por uma faixa vermelha, delimita o objetivo da corrida e traz tensão à competição. O projeto se destaca pelo uso eficaz de variáveis independentes, atualização constante no draw() e aplicação da função random() para gerar variações naturais no movimento. A organização espacial e o uso criativo de formas geométricas simples mostram uma boa compreensão do plano cartesiano e da lógica visual. É um ótimo exemplo de como ideias simples, quando bem estruturadas, podem se transformar em experiências cativantes. A simulação é divertida, bem construída e mostra domínio sobre conceitos básicos de programação criativa.</p>
+                    <img src="IMG/Corrida.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/MX17_/full/rfiWN6i-D">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/MX17_/sketches/rfiWN6i-D">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Também desenvolvido em p5.js, este jogo interativo demonstra com clareza sua habilidade em conectar lógica de programação com percepção visual. A proposta é simples e inteligente: o jogador precisa encontrar um ponto secreto escondido na tela, usando apenas a cor de fundo como dica. À medida que o mouse se aproxima do alvo, o fundo esquenta (com tons avermelhados); ao se afastar, esfria (tons azulados). A distância é calculada em tempo real com a função dist(), e a alteração das cores acontece por meio de lógica condicional baseada nessa medição. O projeto mostra domínio do uso de coordenadas, interação com o mouse (mouseX, mouseY), e sensibilidade estética na transição de cores. Além de funcional, o jogo é visualmente agradável, intuitivo e envolvente — uma aplicação excelente de lógica matemática com criatividade. 
+                    </p>
+                    
+                    <img src="IMG/Quente e frio.png"img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/MX17_/full/xmHkymwmo">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/MX17_/sketches/xmHkymwmo">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma releitura da famosa pintura “Monalisa”, feita com formas básicas usando p5.js. A técnica empregada é a de pixel art: pequenos retângulos são posicionados cuidadosamente no plano cartesiano para compor uma versão digital e minimalista da obra. Cada detalhe da imagem — como o fundo azul, os cabelos escuros e os tons de pele — foi pensado com atenção à paleta de cores e proporção, respeitando a estética original mesmo com elementos simplificados. O destaque aqui vai para a paciência e precisão na construção visual, além da criatividade em transformar arte clássica em linguagem de código. O projeto demonstra sensibilidade artística, domínio da estrutura de coordenadas e capacidade de planejar visualmente uma composição complexa a partir de elementos simples. É um excelente exemplo de como programação também pode ser uma forma de expressão estética.</p>
+                    <img src="IMG/Monalisa.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/MX17_/full/YYAnSlsAS">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/MX17_/sketches/YYAnSlsAS">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/MX17-lk">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Melissa Xavier</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
